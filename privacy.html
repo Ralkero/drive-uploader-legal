@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drive Uploader – Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p class="crumb"><a href="./">Drive Uploader</a></p>
+<h1>Privacy Policy</h1>
+<p class="meta">Effective 21 November 2026</p>
+
+<p>Drive Uploader is a personal command-line tool. Its owner runs it on their own computer
+to upload files to their own Google Drive. It is not offered as a service to the public.</p>
+
+<h2>What Google data it accesses</h2>
+<p>Drive Uploader uses the Google Drive API with one permission only:
+<code>https://www.googleapis.com/auth/drive.file</code>. With that permission it can see and
+change <strong>only the files and folders it has created itself</strong>. It cannot read,
+list, change or delete anything else in your Google Drive.</p>
+<p>Within its own files, it reads names, folder locations and checksums. It uses them to
+put uploads in the right folder and to skip files that are already there.</p>
+
+<h2>Where data is stored</h2>
+<p>Drive Uploader has no server. The sign-in token Google issues is saved only on the
+computer where the tool runs. Files go directly from that computer to Google Drive, and
+nothing is sent anywhere else.</p>
+
+<h2>Sharing</h2>
+<p>Drive Uploader does not share, sell or transfer any data. It has no analytics, tracking or
+advertising, and no person other than the account owner has access to anything it handles.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>Drive Uploader's use and transfer of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Removing access</h2>
+<p>You can revoke Drive Uploader's access at any time at
+<a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.
+Deleting the tool's saved token file removes the sign-in from your computer. Files it
+uploaded stay in your Drive until you delete them.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the updated version will be posted on this page with a new
+effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions can be raised by opening an issue at
+<a href="https://github.com/Ralkero/drive-uploader-legal/issues">github.com/Ralkero/drive-uploader-legal</a>.</p>
+</main>
+</body>
+</html>
